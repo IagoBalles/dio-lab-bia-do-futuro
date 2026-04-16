@@ -5,39 +5,46 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Ele oferece soluções personalizadas baseadas no perfil de movimentação do cliente através da sua conta corrente, recomendando produtos e serviços que o mesmo não possui na instituição.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+O agente irá mapear o perfil de consumo do cliente, e fará uma recomendação baseada nisso. De forma simples e prática, ele mostrará as vantagens que nosso produto tem em relação ao mercado.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+O público-alvo é o cliente com probabilidade de abandono e que não possuem serviços contratados, mas que demonstram ter tais produtos no concorrente. Por exemplo clientes que pagam fatura de cartão de crédito de outros bancos usando a conta corrente.
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+Bradesco Recomenda
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+- Educativo
+- Informativo
+- Consultivo
+- Paciente
+- Hunter
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+- Informal
+- Acessível
+- Didático
+- Vendedor
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+- Saudação: "Bradesco Recomenda, a solução personalizada para você!"
+- Confirmação: "Vou te explicar os detalhes, e mostrar comparações..."
+- Erro/Limitação: "Não tenho essa informação no momento, mas posso te direcionar..."
 
 ---
 
@@ -59,10 +66,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | Streamlit |
+| LLM | Ollama[local]|
+| Base de Conhecimento | JSON/CSV Mockados na pasta `data` |
+| Validação | Checagem de alucinações |
 
 ---
 
@@ -70,12 +77,13 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [x] Usa dados fornecidos no contexto
+- [x] Admita quando não sabe de algo
+- [x] Caso o cliente tenha interesse na oferta, ele direciona para o atendimento junto ao gerente
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- Não recomenda produtos ou serviços dos concorrentes e também não opina sobre esses mesmos concorrentes
+- Não acessa dados sensíveis e nem os solicita, como senhas e token
+- Não formaliza e nem negocia a contratação
