@@ -1,0 +1,22 @@
+{
+  "nome": "Fernando Santos",
+  "idade": 26,
+  "profissao": "Supervisor",
+  "renda_mensal": 5000.00,
+  "uso_de_servicos_bancarios": "Moderado",
+  "objetivo_principal": "Comprar imovel proprio",
+  "patrimonio_total": 55000.00,
+  "reserva_emergencia_atual": 10000.00,
+  "metas": [
+    {
+      "meta": "Comprar imovel proprio",
+      "valor_necessario": 350000.00,
+      "prazo": "2028-06"
+    },
+    {
+      "meta": "Entrada do apartamento",
+      "valor_necessario": 100000.00,
+      "prazo": "2027-12"
+    }
+  ]
+}
