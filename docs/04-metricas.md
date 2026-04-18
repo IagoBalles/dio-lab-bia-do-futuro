@@ -29,22 +29,22 @@ Crie testes simples para validar seu agente:
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
 - **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
-- **Pergunta:** "Qual investimento você recomenda para mim?"
+- **Pergunta:** "Consórcio tem taxa de juros?"
 - **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto XYZ?"
+- **Pergunta:** "Qual melhor cartão do banco concorrente?"
 - **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ---
 
@@ -52,11 +52,13 @@ Crie testes simples para validar seu agente:
 
 Após os testes, registre suas conclusões:
 
+Para um primeiro agente IA, me sinto satisfeito com o resultado. É bem simples e totalmente baseado naquilo que alimentei de informação, mas tem margem para evolução se trabalhado da meneira correta. Senti um pouco de dificuldades na etapa final quando precisei rodar o streamlit e meu computador não respondeu da maneira que eu esperava. Mas aproveitei a oportunidade para fazer os testes e ver que as perguntas que fiz foram respondidas.
+
 **O que funcionou bem:**
-- [Liste aqui]
+- Funcionou bem as interações mais básicas, mas sinto que falta profundidade nas respostas. É nítido que o agente tem total referência com aquilo que esta dentro dos arquivos, e responde de forma afiada aquilo que tem no banco de dados.
 
 **O que pode melhorar:**
-- [Liste aqui]
+- Como citado, falta profundidade. O agente precisa de mais informações sobre produtos específicos e isso é uma questão de alimentar seu banco de dados. 
 
 ---
 
@@ -64,8 +66,8 @@ Após os testes, registre suas conclusões:
 
 Para quem quer explorar mais, algumas métricas técnicas de observabilidade também podem fazer parte da sua solução, como:
 
-- Latência e tempo de resposta;
-- Consumo de tokens e custos;
-- Logs e taxa de erros.
+Local URL: http://localhost:8501
+Network URL: http://192.168.15.37:8501
+
 
 Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
