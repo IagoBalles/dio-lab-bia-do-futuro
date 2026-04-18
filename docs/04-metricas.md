@@ -58,7 +58,18 @@ Para um primeiro agente IA, me sinto satisfeito com o resultado. É bem simples 
 - Funcionou bem as interações mais básicas, mas sinto que falta profundidade nas respostas. É nítido que o agente tem total referência com aquilo que esta dentro dos arquivos, e responde de forma afiada aquilo que tem no banco de dados.
 
 **O que pode melhorar:**
-- Como citado, falta profundidade. O agente precisa de mais informações sobre produtos específicos e isso é uma questão de alimentar seu banco de dados. 
+- Como citado, falta profundidade. O agente precisa de mais informações sobre produtos específicos e isso é uma questão de alimentar seu banco de dados.
+
+**Avaliação de terceiros**
+- Foi realizado o teste com 4 pessoas diferentes.
+  Elas foram informadas do contexto e foi detalhado as informações do cliente fictício
+- Todas tiveram percepções parecidas:
+  Dificuldades em assuntos mais complexos;
+  Praticidade e clareza nas respostas;
+  Linguagem de fácil entendimente;
+  Restrita as informações que lhe cabem.
+
+- Após os feedbacks, sinto-me satisfeito também com o resultado e avalio de forma positiva numa nota de 3,5 de 5 pontos possíves.
 
 ---
 
@@ -69,6 +80,5 @@ Para um primeiro agente IA, me sinto satisfeito com o resultado. É bem simples 
 Local URL: http://localhost:8501
 
 Network URL: http://192.168.15.37:8501
-
 
 
