@@ -34,13 +34,9 @@ Existem duas possibilidades, injetar via codigo ou diretamente no prompt (CTRL +
 import panda as pd
 import json
 
-#  CSVs
-historico = pd.read_csv('data/historico_atendimento.csv')
-transacoes = pd.read_csv('data/transacoes.csv')
-
-#JSONs
-with open ('data/perfil_cliente.json, 'r', enconding='utf-8) as f:
-    perfil = json.load(f)
+perfil = json.load(open('./data/perfil_cliente.json'))
+transacoes = pd.read_csv('./data/transacoes.csv')
+historico = pd.read_csv('./data/historico_transacoes.csv')
 
 ```
 
