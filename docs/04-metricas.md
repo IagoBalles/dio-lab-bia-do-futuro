@@ -64,10 +64,11 @@ Para um primeiro agente IA, me sinto satisfeito com o resultado. É bem simples 
 
 ## Métricas Avançadas (Opcional)
 
-Para quem quer explorar mais, algumas métricas técnicas de observabilidade também podem fazer parte da sua solução, como:
+
 
 Local URL: http://localhost:8501
+
 Network URL: http://192.168.15.37:8501
 
 
-Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
+
